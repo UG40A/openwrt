@@ -1,0 +1,9 @@
+[submodule "package/custom/opengnb"]
+	path = package/custom/opengnb
+	url = https://github.com/gnbdev/opengnb-openwrt
+[submodule "package/custom/accel-ppp"]
+	path = package/custom/accel-ppp
+	url = https://github.com/koshev-msk/openwrt-accel-ppp
+[submodule "package/custom/ipobfs"]
+	path = package/custom/ipobfs
+	url = https://github.com/bol-van/ipobfs
