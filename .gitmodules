@@ -6,4 +6,4 @@
 	url = https://github.com/koshev-msk/openwrt-accel-ppp
 [submodule "package/custom/ipobfs"]
 	path = package/custom/ipobfs
-	url = https://github.com/bol-van/ipobfs
+	url = https://github.com/UG40A/ipobfs-openwrt
