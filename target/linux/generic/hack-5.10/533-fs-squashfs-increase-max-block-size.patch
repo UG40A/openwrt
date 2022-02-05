@@ -1,0 +1,22 @@
+--- a/fs/squashfs/squashfs_fs.h
++++ b/fs/squashfs/squashfs_fs.h
+@@ -39,8 +39,8 @@
+ #define SQUASHFS_DEVBLK_SIZE 1024
+ #endif
+ 
+-#define SQUASHFS_FILE_MAX_SIZE		1048576
+-#define SQUASHFS_FILE_MAX_LOG		20
++#define SQUASHFS_FILE_MAX_SIZE		16777216
++#define SQUASHFS_FILE_MAX_LOG		24
+ 
+ /* Max length of filename (not 255) */
+ #define SQUASHFS_NAME_LEN		256
+@@ -215,7 +215,7 @@
+ #define SQUASHFS_XATTR_OFFSET(A)	((unsigned int) ((A) & 0xffff))
+ 
+ /* cached data constants for filesystem */
+-#define SQUASHFS_CACHED_BLKS		8
++#define SQUASHFS_CACHED_BLKS		16
+ 
+ /* meta index cache */
+ #define SQUASHFS_META_INDEXES	(SQUASHFS_METADATA_SIZE / sizeof(unsigned int))
